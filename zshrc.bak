@@ -1,0 +1,35 @@
+# RUST PATH
+source "$HOME/.cargo/env"
+
+# alias ls to eza
+# MUST be Install eza first
+# HELP: `cargo install eza`
+alias ls='eza'
+alias l='eza -l'
+alias la='eza -a'
+alias lla='eza -la'
+alias lt='eza --tree'
+
+# SOLANA PATH
+export PATH="/Users/davirian/.local/share/solana/install/active_release/bin:$PATH"
+
+# GO PATH
+export PATH=$HOME/go/bin:$PATH
+
+export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"
+
+# bun completions
+[ -s "/Users/davirian/.bun/_bun" ] && source "/Users/davirian/.bun/_bun"
+
+# BUN PATH
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# deno path
+export DENO_INSTALL="/Users/davirian/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+# ruby path
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"

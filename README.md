@@ -1,11 +1,9 @@
 # cfg
 
-my computer config file
+My computer config file
 
-## Dust
+## RUST BINARY TOOLS
 
-du + rust = dust. Like du but more intuitive
-
-```bash
-cargo install du-dust
-```
+- [eza](https://github.com/eza-community/eza?tab=readme-ov-file)
+- [du-dust](https://github.com/bootandy/dust)
+- [ast-grep](https://github.com/ast-grep/ast-grep) 还未真实清楚怎么用
